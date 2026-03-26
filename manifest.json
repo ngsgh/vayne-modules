@@ -52,6 +52,10 @@
     "webhook": {
       "version": "1.0.0",
       "description": "webhook 모듈"
+    },
+    "kanban": {
+      "version": "1.0.0",
+      "description": "kanban 모듈"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "kanban",
+  "version": "1.0.0",
+  "description": "kanban 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/kanban-actions.ts": "src/app/api/kanban/kanban-actions.ts",
+      "core/api/route.ts": "src/app/api/kanban/route.ts",
+      "core/lib/kanban-seed.ts": "src/lib/kanban-seed.ts",
+      "core/lib/kanban.ts": "src/lib/kanban.ts",
+      "core/types/kanban.ts": "src/types/kanban.ts"
+    },
+    "templates": {}
+  }
+}
