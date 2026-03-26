@@ -1,0 +1,15 @@
+{
+  "id": "webhook",
+  "version": "1.0.0",
+  "description": "webhook 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/[id]/route.ts": "src/app/api/webhook/[id]/route.ts",
+      "core/api/route.ts": "src/app/api/webhook/route.ts",
+      "core/lib/webhook.ts": "src/lib/webhook.ts",
+      "core/types/webhook.ts": "src/types/webhook.ts"
+    },
+    "templates": {}
+  }
+}

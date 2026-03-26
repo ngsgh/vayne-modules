@@ -48,6 +48,10 @@
     "api_key": {
       "version": "1.0.0",
       "description": "api_key 모듈"
+    },
+    "webhook": {
+      "version": "1.0.0",
+      "description": "webhook 모듈"
     }
   }
 }
