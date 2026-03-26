@@ -64,6 +64,10 @@
     "calendar": {
       "version": "0.1.1",
       "description": "calendar 모듈"
+    },
+    "approval": {
+      "version": "0.1.1",
+      "description": "approval 모듈"
     }
   }
 }

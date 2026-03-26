@@ -1,0 +1,14 @@
+{
+  "id": "approval",
+  "version": "0.1.1",
+  "description": "approval 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/approval/route.ts",
+      "core/lib/approval.ts": "src/lib/approval.ts",
+      "core/types/approval.ts": "src/types/approval.ts"
+    },
+    "templates": {}
+  }
+}
