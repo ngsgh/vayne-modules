@@ -23,18 +23,6 @@
       "version": "1.0.0",
       "description": "AWS S3 드래그앤드롭 업로드",
       "alwaysOn": true
-    },
-    "todo": {
-      "version": "0.2.0",
-      "description": "todo 모듈"
-    },
-    "calendar": {
-      "version": "0.2.0",
-      "description": "calendar 모듈"
-    },
-    "memo": {
-      "version": "0.3.0",
-      "description": "memo 모듈"
     }
   }
 }
