@@ -27,6 +27,10 @@
     "video_player": {
       "version": "10.0.NaN",
       "description": "video_player 모듈"
+    },
+    "sugar_high": {
+      "version": "1.0.1",
+      "description": "sugar_high 모듈"
     }
   }
 }
