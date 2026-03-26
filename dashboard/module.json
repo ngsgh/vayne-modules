@@ -1,0 +1,16 @@
+{
+  "id": "dashboard",
+  "version": "0.1.1",
+  "description": "dashboard 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/dashboard/route.ts",
+      "core/lib/dashboard-seed.ts": "src/lib/dashboard-seed.ts",
+      "core/lib/dashboard-sources.ts": "src/lib/dashboard-sources.ts",
+      "core/lib/dashboard.ts": "src/lib/dashboard.ts",
+      "core/types/dashboard.ts": "src/types/dashboard.ts"
+    },
+    "templates": {}
+  }
+}

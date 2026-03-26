@@ -56,6 +56,10 @@
     "kanban": {
       "version": "1.0.1",
       "description": "kanban 모듈"
+    },
+    "dashboard": {
+      "version": "0.1.1",
+      "description": "dashboard 모듈"
     }
   }
 }
