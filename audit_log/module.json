@@ -1,0 +1,14 @@
+{
+  "id": "audit_log",
+  "version": "1.0.0",
+  "description": "audit_log 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/audit_log/route.ts",
+      "core/lib/audit_log.ts": "src/lib/audit_log.ts",
+      "core/types/audit_log.ts": "src/types/audit_log.ts"
+    },
+    "templates": {}
+  }
+}

@@ -40,6 +40,10 @@
       "version": "1.0.0",
       "description": "워크스페이스 기반 조직 관리 및 데이터 격리",
       "alwaysOn": true
+    },
+    "audit_log": {
+      "version": "1.0.0",
+      "description": "audit_log 모듈"
     }
   }
 }
