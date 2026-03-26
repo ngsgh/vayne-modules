@@ -1,33 +1,33 @@
 {
   "id": "board",
-  "version": "1.0.0",
-  "description": "게시판 CRUD + 댓글",
+  "version": "1.1.0",
+  "description": "board 모듈",
   "dependencies": [],
   "fileMap": {
     "core": {
-      "core/api/route.ts": "src/app/api/board/route.ts",
-      "core/api/[id]/route.ts": "src/app/api/board/[id]/route.ts",
       "core/api/[id]/comments/route.ts": "src/app/api/board/[id]/comments/route.ts",
+      "core/api/[id]/route.ts": "src/app/api/board/[id]/route.ts",
       "core/api/comments/[id]/route.ts": "src/app/api/board/comments/[id]/route.ts",
-      "core/lib/board-store.ts": "src/lib/board-store.ts",
+      "core/api/route.ts": "src/app/api/board/route.ts",
       "core/lib/board-comment-store.ts": "src/lib/board-comment-store.ts",
-      "core/lib/board.ts": "src/lib/board.ts",
       "core/lib/board-seed.ts": "src/lib/board-seed.ts",
+      "core/lib/board-store.ts": "src/lib/board-store.ts",
+      "core/lib/board.ts": "src/lib/board.ts",
       "core/types/board.ts": "src/types/board.ts"
     },
     "templates": {
-      "templates/pages/page.tsx": "src/app/(app)/board/page.tsx",
-      "templates/pages/[id]/page.tsx": "src/app/(app)/board/[id]/page.tsx",
-      "templates/pages/[id]/edit/page.tsx": "src/app/(app)/board/[id]/edit/page.tsx",
-      "templates/pages/write/page.tsx": "src/app/(app)/board/write/page.tsx",
-      "templates/components/post-table.tsx": "src/app/(app)/board/post-table.tsx",
-      "templates/components/post-form.tsx": "src/app/(app)/board/post-form.tsx",
-      "templates/components/comment-section.tsx": "src/app/(app)/board/comment-section.tsx",
-      "templates/components/comment-item.tsx": "src/app/(app)/board/comment-item.tsx",
-      "templates/components/tag-input.tsx": "src/app/(app)/board/tag-input.tsx",
-      "templates/components/attachment-input.tsx": "src/app/(app)/board/attachment-input.tsx",
-      "templates/components/use-posts.ts": "src/app/(app)/board/use-posts.ts",
-      "templates/components/use-post-detail.ts": "src/app/(app)/board/use-post-detail.ts"
+      "templates/[id]/edit/page.tsx": "src/app/(app)/board/[id]/edit/page.tsx",
+      "templates/[id]/page.tsx": "src/app/(app)/board/[id]/page.tsx",
+      "templates/attachment-input.tsx": "src/app/(app)/board/attachment-input.tsx",
+      "templates/comment-item.tsx": "src/app/(app)/board/comment-item.tsx",
+      "templates/comment-section.tsx": "src/app/(app)/board/comment-section.tsx",
+      "templates/page.tsx": "src/app/(app)/board/page.tsx",
+      "templates/post-form.tsx": "src/app/(app)/board/post-form.tsx",
+      "templates/post-table.tsx": "src/app/(app)/board/post-table.tsx",
+      "templates/tag-input.tsx": "src/app/(app)/board/tag-input.tsx",
+      "templates/use-post-detail.ts": "src/app/(app)/board/use-post-detail.ts",
+      "templates/use-posts.ts": "src/app/(app)/board/use-posts.ts",
+      "templates/write/page.tsx": "src/app/(app)/board/write/page.tsx"
     }
   }
 }

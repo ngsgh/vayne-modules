@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "modules": {
     "board": {
-      "version": "1.0.0",
-      "description": "게시판 CRUD + 댓글"
+      "version": "1.1.0",
+      "description": "board 모듈"
     },
     "credits": {
       "version": "1.0.0",

@@ -16,11 +16,14 @@ export async function GET(request: NextRequest) {
       ? Number(params.get("pageSize"))
       : undefined;
 
+    const sort = params.get("sort") ?? "latest";
+
     const result = getPosts({
       category: category ?? undefined,
       search,
       page,
       pageSize,
+      sort: sort as "latest" | "popular" | "comments",
     });
 
     return NextResponse.json(result);
