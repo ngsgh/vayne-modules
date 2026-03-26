@@ -1,0 +1,19 @@
+{
+  "id": "rbac",
+  "version": "1.0.0",
+  "description": "역할 기반 접근 제어 (RBAC)",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/lib/rbac.ts": "src/lib/rbac.ts",
+      "core/types/auth.ts": "src/types/auth.ts"
+    },
+    "templates": {
+      "templates/pages/page.tsx": "src/app/(app)/settings/roles/page.tsx",
+      "templates/components/members-table.tsx": "src/app/(app)/settings/roles/members-table.tsx",
+      "templates/components/permission-matrix.tsx": "src/app/(app)/settings/roles/permission-matrix.tsx",
+      "templates/components/role-switcher.tsx": "src/app/(app)/settings/roles/role-switcher.tsx",
+      "templates/components/invite-dialog.tsx": "src/app/(app)/settings/roles/invite-dialog.tsx"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "modules": {
+    "board": { "version": "1.0.0", "description": "게시판 CRUD + 댓글" },
+    "credits": { "version": "1.0.0", "description": "액션별 크레딧 차감 및 잔액 관리" },
+    "notifications": { "version": "1.0.0", "description": "인앱 알림 및 푸시 알림", "alwaysOn": true },
+    "rbac": { "version": "1.0.0", "description": "역할 기반 접근 제어 (RBAC)", "alwaysOn": true },
+    "s3_upload": { "version": "1.0.0", "description": "AWS S3 드래그앤드롭 업로드", "alwaysOn": true }
+  }
+}

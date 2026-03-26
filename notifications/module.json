@@ -1,0 +1,15 @@
+{
+  "id": "notifications",
+  "version": "1.0.0",
+  "description": "인앱 알림 및 푸시 알림",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/notifications/route.ts"
+    },
+    "templates": {
+      "templates/pages/page.tsx": "src/app/(app)/notifications/page.tsx",
+      "templates/components/list-item.tsx": "src/app/(app)/notifications/list-item.tsx"
+    }
+  }
+}

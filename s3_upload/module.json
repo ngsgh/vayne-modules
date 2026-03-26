@@ -1,0 +1,15 @@
+{
+  "id": "s3_upload",
+  "version": "1.0.0",
+  "description": "AWS S3 드래그앤드롭 업로드",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/upload/route.ts"
+    },
+    "templates": {
+      "templates/pages/page.tsx": "src/app/(app)/settings/upload/page.tsx",
+      "templates/components/upload-section.tsx": "src/app/(app)/settings/upload/upload-section.tsx"
+    }
+  }
+}

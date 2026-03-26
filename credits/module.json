@@ -1,0 +1,20 @@
+{
+  "id": "credits",
+  "version": "1.0.0",
+  "description": "액션별 크레딧 차감 및 잔액 관리",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/credits/route.ts",
+      "core/lib/credits.ts": "src/lib/credits.ts",
+      "core/types/credit.ts": "src/types/credit.ts"
+    },
+    "templates": {
+      "templates/pages/page.tsx": "src/app/(app)/settings/credits/page.tsx",
+      "templates/components/credit-balance.tsx": "src/app/(app)/settings/credits/credit-balance.tsx",
+      "templates/components/credit-cost-table.tsx": "src/app/(app)/settings/credits/credit-cost-table.tsx",
+      "templates/components/transaction-history.tsx": "src/app/(app)/settings/credits/transaction-history.tsx",
+      "templates/components/recharge-dialog.tsx": "src/app/(app)/settings/credits/recharge-dialog.tsx"
+    }
+  }
+}
