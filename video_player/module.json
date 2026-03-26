@@ -1,6 +1,6 @@
 {
   "id": "video_player",
-  "version": "10.0.NaN",
+  "version": "10.0.1",
   "description": "video_player 모듈",
   "dependencies": [],
   "fileMap": {
