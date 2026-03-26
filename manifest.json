@@ -60,6 +60,10 @@
     "dashboard": {
       "version": "0.1.1",
       "description": "dashboard 모듈"
+    },
+    "calendar": {
+      "version": "0.1.1",
+      "description": "calendar 모듈"
     }
   }
 }

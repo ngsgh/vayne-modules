@@ -1,0 +1,14 @@
+{
+  "id": "calendar",
+  "version": "0.1.1",
+  "description": "calendar 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/calendar/route.ts",
+      "core/lib/calendar.ts": "src/lib/calendar.ts",
+      "core/types/calendar.ts": "src/types/calendar.ts"
+    },
+    "templates": {}
+  }
+}
