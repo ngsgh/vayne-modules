@@ -35,6 +35,11 @@
     "recharts": {
       "version": "3.8.1",
       "description": "recharts 모듈"
+    },
+    "multi_tenant": {
+      "version": "1.0.0",
+      "description": "워크스페이스 기반 조직 관리 및 데이터 격리",
+      "alwaysOn": true
     }
   }
 }
