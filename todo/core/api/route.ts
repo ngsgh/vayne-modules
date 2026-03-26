@@ -3,7 +3,8 @@ import { requireModule } from "@/lib/modules";
 
 export async function GET() {
   requireModule("todo");
-  return NextResponse.json({ data: [] });
+  // v0.2.0: 기본 데이터 추가
+  return NextResponse.json({ data: [{ id: 1, title: "샘플 할일", done: false }] });
 }
 
 export async function POST(request: Request) {
