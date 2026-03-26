@@ -29,11 +29,11 @@
       "description": "todo 모듈"
     },
     "calendar": {
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "calendar 모듈"
     },
     "memo": {
-      "version": "0.1.0",
+      "version": "0.3.0",
       "description": "memo 모듈"
     }
   }

@@ -3,7 +3,12 @@ import { requireModule } from "@/lib/modules";
 
 export async function GET() {
   requireModule("memo");
-  return NextResponse.json({ data: [] });
+  // v0.3.0: 고정 메모 + 즐겨찾기 지원
+  return NextResponse.json({
+    data: [],
+    pinned: [],
+    favorites: [],
+  });
 }
 
 export async function POST(request: Request) {
