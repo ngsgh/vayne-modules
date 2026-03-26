@@ -1,0 +1,10 @@
+{
+  "id": "recharts",
+  "version": "3.8.1",
+  "description": "recharts 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {},
+    "templates": {}
+  }
+}
