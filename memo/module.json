@@ -1,0 +1,16 @@
+{
+  "id": "memo",
+  "version": "0.1.0",
+  "description": "memo 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/memo/route.ts",
+      "core/lib/memo.ts": "src/lib/memo.ts",
+      "core/types/memo.ts": "src/types/memo.ts"
+    },
+    "templates": {
+      "templates/page.tsx": "src/app/(app)/memo/page.tsx"
+    }
+  }
+}
