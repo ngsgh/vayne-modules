@@ -23,6 +23,10 @@
       "version": "1.0.0",
       "description": "AWS S3 드래그앤드롭 업로드",
       "alwaysOn": true
+    },
+    "video_player": {
+      "version": "10.0.NaN",
+      "description": "video_player 모듈"
     }
   }
 }
