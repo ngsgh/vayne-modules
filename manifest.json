@@ -44,6 +44,10 @@
     "audit_log": {
       "version": "1.0.0",
       "description": "audit_log 모듈"
+    },
+    "api_key": {
+      "version": "1.0.0",
+      "description": "api_key 모듈"
     }
   }
 }

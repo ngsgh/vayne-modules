@@ -1,0 +1,14 @@
+{
+  "id": "api_key",
+  "version": "1.0.0",
+  "description": "api_key 모듈",
+  "dependencies": [],
+  "fileMap": {
+    "core": {
+      "core/api/route.ts": "src/app/api/api_key/route.ts",
+      "core/lib/api_key.ts": "src/lib/api_key.ts",
+      "core/types/api_key.ts": "src/types/api_key.ts"
+    },
+    "templates": {}
+  }
+}
